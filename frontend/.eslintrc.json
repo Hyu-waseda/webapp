@@ -20,5 +20,17 @@
         "react"
     ],
     "rules": {
+        "@typescript-eslint/quotes": "off",
+        "quotes": "off",
+        "@typescript-eslint/semi": "off",
+        "semi": ["error", "always"],
+        "semi-spacing": ["error", {"after": true, "before": false}],
+        "semi-style": ["error", "last"],
+        "no-extra-semi": "error",
+        "no-unexpected-multiline": "error",
+        "no-unreachable": "error",
+        "no-tabs": "off",
+        "@typescript-eslint/indent": "off",
+        "indent": "off"
     }
 }

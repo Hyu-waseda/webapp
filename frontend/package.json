@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --fix --ext ts,tsx"
+    "lint": "eslint --fix --ext ts,tsx",
+    "test": "jest test"
   },
   "dependencies": {
     "@typescript-eslint/parser": "^5.40.1",
